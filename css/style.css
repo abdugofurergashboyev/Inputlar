@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.registration{
+    padding: 10px;
+    background-color: rgb(56, 56, 241);
+}
+.label{
+    display: flex;
+    flex-direction: column;
+}
+.label .form_control{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+}
+p legend{
+    color: white;
+    font-weight: bold;
+}
+.Submit{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.radio_label{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+}
+.radio_label input{
+    margin: 5px;
+}
+fieldset{
+    padding: 10px;
+}

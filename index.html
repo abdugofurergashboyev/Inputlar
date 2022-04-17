@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form class="registration" action="https://echo.htmlacademy.ru">
+       <label  class="label">
+           <p>ismi</p>
+           <input class="form_cantrol" minlength="2" maxlength="10" name="Ismingiz" placeholder="Ismingizni kiriting" type="text">
+       </label>
+       <label  class="label">
+           <p>
+               yoshi
+           </p>
+           <input class="form_cantrol" minlength="18" maxlength="50" name="Yoshingiz" placeholder="Yoshingizni kiriting" type="number">
+       </label>
+       <fieldset>
+           <legend>Jinsi</legend>
+           <label  class="label radio_label ">
+               <p>Erkak</p>
+               <input name="Jinsi" value="Erkak" type="radio">
+           </label>
+           <label  class="label radio_label">
+            <p>Ayol</p>
+            <input name="Jinsi" value="Ayol" type="radio">
+        </label>
+       </fieldset>
+       <fieldset>
+        <legend>Yoqtirgan hobbyingiz</legend>
+        <label >
+            <p>programming</p>
+            <input name="hobby" value="Programming" type="checkbox">
+        </label>
+        <label >
+         <p>Animation</p>
+         <input name="hobby" value="Animation" type="checkbox">
+     </label>
+     <label >
+         <p>3D max</p>
+         <input name="hobby" value="3D max" type="checkbox">
+     </label>
+    </fieldset>
+
+       <button class="Submit" type="submit">
+           YUBORISH
+       </button>
+      
+        
+    </form>
+</body>
+</html>
